@@ -1,0 +1,14 @@
+<div class="row" style="width:160px;margin: 0">
+  <div class="bg-light" style="width:100% ;height: calc(100vh - 58px); border: 1px  solid #d3d7dc">
+    <ul>
+      <li *ngFor="let item of departement" (click)="goTo(item)" [ngClass]="{'active': isActive(item)}">
+        {{item}}
+        <hr>
+      </li>
+
+    </ul>
+
+
+  </div>
+
+</div>

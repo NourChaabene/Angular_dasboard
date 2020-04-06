@@ -1,0 +1,18 @@
+ul{
+  list-style: none;
+  margin-top: 2rem;
+  padding-left: 0;
+  text-align: center
+}
+li:hover{
+  cursor: pointer;
+  font-weight: bold;
+}
+li {
+  transition: 150ms;
+  padding: 10px;
+}
+.active {
+  font-weight: bold;
+}
+
