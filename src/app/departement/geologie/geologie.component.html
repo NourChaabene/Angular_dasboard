@@ -1,2 +1,4 @@
 <h4 style="margin-left: 15px"> Geologie </h4>
-<app-cards></app-cards>
+<app-cards [budget]="129" [professor]="156" [student]="4509" [staff]="26" (switch)="getSelectedItem($event)"></app-cards>
+<app-data-table [data]="rows" [columns]="cols" *ngIf="visible"></app-data-table>
+

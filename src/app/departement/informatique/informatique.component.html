@@ -1,2 +1,4 @@
 <h4 style="margin-left: 15px"> Informatique </h4>
-<app-cards [budget]="546" [professor]="15" [student]="123" [staff]="26"></app-cards>
+<app-cards [budget]="546" [professor]="15" [student]="123" [staff]="26" (switch)="getSelectedItem($event)"></app-cards>
+<app-data-table [data]="rows" [columns]="cols" *ngIf="visible"></app-data-table>
+

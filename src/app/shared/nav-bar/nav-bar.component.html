@@ -2,6 +2,10 @@
 <nav class="navbar navbar-dark bg-dark">
   <div class="icon d-flex">
     <i class="fa fa-graduation-cap" aria-hidden="true" style="margin-top: 6px;"></i>
-    <p class="ml-1">MySchool!</p>
+    <p class="ml-1" (click)="redirectToHome()">MySchool!</p>
+
   </div>
+  <button type="button" class="btn btn-light align-self-end" (click)="logOut()">Logout</button>
+
+
 </nav>

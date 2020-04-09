@@ -1,2 +1,4 @@
 <h4 style="margin-left: 15px"> Civil </h4>
-<app-cards></app-cards>
+<app-cards [budget]="2356" [professor]="76" [student]="540" [staff]="26" (switch)="getSelectedItem($event)"></app-cards>
+<app-data-table [data]="rows" [columns]="cols" *ngIf="visible"></app-data-table>
+

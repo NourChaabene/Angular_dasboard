@@ -1,0 +1,343 @@
+{
+  "electromecanique": {
+    "etudiant": [
+      {
+        "nom": "etudiant electro 1",
+        "prenom": "Prenom1",
+        "niveau": 3
+      },
+      {
+        "nom": "electro 2",
+        "prenom": "Prenom2",
+        "niveau": 2
+      },
+      {
+        "nom": "electro 3",
+        "prenom": "Prenom3",
+        "niveau": 1
+      }
+    ],
+    "professeur": [
+      {
+        "nom": "prof1",
+        "prenom": "Prenom1",
+        "salaire": 2704
+      },
+      {
+        "nom": "prof2",
+        "prenom": "Prenom2",
+        "salaire": 678
+      }
+    ],
+    "staff": [
+      {
+        "nom": "staff1",
+        "prenom": "Prenom1",
+        "salaire": 270
+      }
+    ],
+    "budget": [
+      {
+        "année": "2020",
+        "semestre": "3eme semestre",
+        "montant": 270
+      }
+    ]
+  },
+  "informatique": {
+    "etudiant": [
+      {
+        "nom": "Nour",
+        "prenom": "CHAABENE",
+        "niveau": 3
+      },
+      {
+        "nom": "Nour",
+        "prenom": "Chaabene",
+        "niveau": 2
+      },
+      {
+        "nom": "nour",
+        "prenom": "chaabene",
+        "niveau": 1
+      }
+    ],
+    "professeur": [
+      {
+        "nom": "Nom1",
+        "prenom": "Prenom1",
+        "salaire": 2700
+      },
+      {
+        "nom": "Nom2",
+        "prenom": "Prenom2",
+        "salaire": 2705
+      }
+    ],
+    "staff": [
+      {
+        "nom": "staff",
+        "prenom": "staff",
+        "salaire": 270
+      }
+    ],
+    "budget": [
+      {
+        "année": "2020",
+        "semestre": "1er semestre",
+        "montant": 270
+      }
+    ]
+  },
+  "electrique": {
+    "etudiant": [
+      {
+        "nom": "etudiant electrique 1",
+        "prenom": "Prenom1",
+        "niveau": 3
+      },
+      {
+        "nom": "electrique 2",
+        "prenom": "Prenom2",
+        "niveau": 2
+      },
+      {
+        "nom": "elec 3",
+        "prenom": "Prenom3",
+        "niveau": 1
+      }
+    ],
+    "professeur": [
+      {
+        "nom": "prof1elec",
+        "prenom": "Prenom1",
+        "salaire": 2704
+      },
+      {
+        "nom": "prof2elec",
+        "prenom": "Prenom2",
+        "salaire": 678
+      }
+    ],
+    "staff": [
+      {
+        "nom": "staff1",
+        "prenom": "Prenom1",
+        "salaire": 270
+      }
+    ],
+    "budget": [
+      {
+        "année": "2020",
+        "semestre": "3eme semestre",
+        "montant": 270
+      }
+    ]
+  },
+  "materiaux": {
+    "etudiant": [
+      {
+        "nom": "mat1",
+        "prenom": "Prenom1",
+        "niveau": 2
+      },
+      {
+        "nom": "mat3",
+        "prenom": "Prenom3",
+        "niveau": 1
+      }
+    ],
+    "professeur": [
+      {
+        "nom": "profmat1",
+        "prenom": "Prenom1",
+        "salaire": 2700
+      }
+    ],
+    "staff": [
+      {
+        "nom": "Nom1",
+        "prenom": "Prenom1",
+        "salaire": 270
+      }
+    ],
+    "budget": [
+      {
+        "année": "2018",
+        "semestre": "2eme semestre",
+        "montant": 270
+      }
+    ]
+  },
+  "civil": {
+    "etudiant": [
+      {
+        "nom": "etudiant civil 1",
+        "prenom": "Prenom1",
+        "niveau": 3
+      },
+      {
+        "nom": "civil 2",
+        "prenom": "Prenom2",
+        "niveau": 2
+      },
+      {
+        "nom": "civil 3",
+        "prenom": "Prenom3",
+        "niveau": 1
+      }
+    ],
+    "professeur": [
+      {
+        "nom": "prof1",
+        "prenom": "Prenom1",
+        "salaire": 2704
+      },
+      {
+        "nom": "prof2",
+        "prenom": "Prenom2",
+        "salaire": 678
+      }
+    ],
+    "staff": [
+      {
+        "nom": "staff1",
+        "prenom": "Prenom1",
+        "salaire": 270
+      }
+    ],
+    "budget": [
+      {
+        "année": "2020",
+        "semestre": "3eme semestre",
+        "montant": 270
+      }
+    ]
+  },
+  "biologie": {
+    "etudiant": [
+      {
+        "nom": "Nom1",
+        "prenom": "Prenom1",
+        "niveau": 1
+      },
+      {
+        "nom": "Nom2",
+        "prenom": "Prenom2",
+        "niveau": 2
+      },
+      {
+        "nom": "Nom3",
+        "prenom": "Prenom3",
+        "niveau": 3
+      }
+    ],
+    "professeur": [
+      {
+        "nom": "Nom1",
+        "prenom": "Prenom1",
+        "salaire": 2345
+      },
+      {
+        "nom": "Nom2",
+        "prenom": "Prenom2",
+        "salaire": 2706
+      },
+      {
+        "nom": "Nom3",
+        "prenom": "Prenom3",
+        "salaire": 2709
+      }
+    ],
+    "staff": [
+      {
+        "nom": "Nom1",
+        "prenom": "Prenom1",
+        "salaire": 270
+      },
+      {
+        "nom": "Nom2",
+        "prenom": "Prenom2",
+        "salaire": 256
+      },
+      {
+        "nom": "Nom3",
+        "prenom": "Prenom3",
+        "salaire": 240
+      }
+    ],
+    "budget":[
+    {
+      "année": "2020",
+      "semestre": "2eme semestre",
+      "montant": 120
+    },
+      {
+        "année": "2020",
+        "semestre": "1er semestre",
+        "montant": 140
+      },
+      {
+        "année": "2019",
+        "semestre": "3eme semestre",
+        "montant": 100
+      },
+      {
+        "année": "2019",
+        "semestre": "2eme semestre",
+        "montant": 110
+      },
+      {
+        "année": "2019",
+        "semestre": "1er semestre",
+        "montant": 60
+      }
+      ]
+  },
+  "geologie": {
+    "etudiant": [
+      {
+        "nom": "Nourgeo"
+      },
+      {
+        "prenom": "Chaabene"
+      },
+      {
+        "niveau": "3"
+      }
+    ],
+    "professeur": [
+      {
+        "nom": "FFF"
+      },
+      {
+        "prenom": "BBB"
+      },
+      {
+        "niveau": "1"
+      }
+    ],
+    "staff": [
+      {
+        "nom": "staff"
+      },
+      {
+        "prenom": "BBB"
+      },
+      {
+        "niveau": "1"
+      }
+    ],
+    "budget": [
+      {
+        "nom": "FFF"
+      },
+      {
+        "prenom": "BBB"
+      },
+      {
+        "niveau": "1"
+      }
+    ]
+  }
+}

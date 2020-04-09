@@ -1,2 +1,3 @@
 <h4 style="margin-left: 15px"> Biologie </h4>
-<app-cards></app-cards>
+<app-cards [budget]="785" [professor]="45" [student]="176" [staff]="26" (switch)="getSelectedItem($event)"></app-cards>
+<app-data-table [data]="rows" [columns]="cols" *ngIf="visible"></app-data-table>

@@ -16,6 +16,8 @@ import { MateriauxComponent } from './departement/materiaux/materiaux.component'
 import { BiologieComponent } from './departement/biologie/biologie.component';
 import { GeologieComponent } from './departement/geologie/geologie.component';
 import { CardsComponent } from './shared/cards/cards.component';
+import { DataTableComponent } from './shared/data-table/data-table.component';
+import { StatisticsComponent } from './statistics/statistics.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { CardsComponent } from './shared/cards/cards.component';
     MateriauxComponent,
     BiologieComponent,
     GeologieComponent,
-    CardsComponent
+    CardsComponent,
+    DataTableComponent,
+    StatisticsComponent
   ],
   imports: [
     BrowserModule,

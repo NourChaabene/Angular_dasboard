@@ -19,7 +19,6 @@ export class SideBarComponent implements OnInit {
   }
 
   goTo(item) {
-    console.log(item);
     switch (item) {
       case 'Informatique' :
         this.router.navigate(['home/informatique']);
@@ -46,7 +45,6 @@ export class SideBarComponent implements OnInit {
   }
 
   isActive(item) {
-    console.log(this.router.url)
     return this.router.url.includes(item.toLowerCase());
   }
 

@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
 import {HomeComponent} from './home/home.component';
 import {LoginComponent} from './login/login.component';
@@ -10,10 +10,16 @@ import {ElectriqueComponent} from './departement/electrique/electrique.component
 import {MateriauxComponent} from './departement/materiaux/materiaux.component';
 import {BiologieComponent} from './departement/biologie/biologie.component';
 import {GeologieComponent} from './departement/geologie/geologie.component';
+import {CanActivateRouteGuard} from './login/routeGuard';
+import {StatisticsComponent} from './statistics/statistics.component';
 
 const appRouting: Routes = [
   {path: '', component: LoginComponent},
-  {path: 'home', component: HomeComponent, children: [
+  {
+    path: 'home', component: HomeComponent, canActivate: [CanActivateRouteGuard]
+    , children: [
+      {path: '', component: StatisticsComponent},
+
       {path: 'informatique', component: InformatiqueComponent},
       {path: 'electromecanique', component: ElectromecaniqueComponent},
       {path: 'electrique', component: ElectriqueComponent},
@@ -21,8 +27,9 @@ const appRouting: Routes = [
       {path: 'materiaux', component: MateriauxComponent},
       {path: 'biologie', component: BiologieComponent},
       {path: 'geologie', component: GeologieComponent},
-    ]}
-]
+    ]
+  }
+];
 
 @NgModule({
   declarations: [],
@@ -32,4 +39,5 @@ const appRouting: Routes = [
   ],
   exports: [RouterModule]
 })
-export class RoutingModule { }
+export class RoutingModule {
+}
